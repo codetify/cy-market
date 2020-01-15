@@ -44,4 +44,4 @@ bu alana scriptin kurulu olduğu dizini yazın.
   
 Eğer kurulumda bir sorun çıkarsa veya yardımcı olabileceğimiz bir konu olursa bizlere; sosyal medya adreslerimizden ve https://codetify.net/iletisim adresinden ulaşabilirsiniz.
   
-  Not: Bu script tamamen açık kaynak ve ücretsizdir. Kendinize göre düzenleyebilirsiniz #FAKAT SATIŞI KESİNLİKLE YASAKTIR!#
+#  Not: Bu script tamamen açık kaynak ve ücretsizdir. Kendinize göre düzenleyebilirsiniz FAKAT SATIŞI KESİNLİKLE YASAKTIR!
