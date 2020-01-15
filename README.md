@@ -2,7 +2,7 @@
 Merhaba arkadaşlar, "Codetify Yazılım" ekibi olarak sizlere codeigniter ile yazmış olduğumuz oyun ve uygulama market scriptini ücretsiz olarak vermeyi düşündük :)
 
 # Yönetim paneli özellikleri
--Sayfalar Kızmı (Ekle - Düzenle - Sil)
+-Sayfalar Kısmı (Ekle - Düzenle - Sil)
 -Uygulamalar Sayfası (Ekle - Düzenle - Sil)
 -Oyunlar Sayfası (Ekle - Düzenle - Sil)
 -Oyun içerik ve Uygulama içerik kısmında Ekran görüntüleri ekleme&silme sayfası (Ekle - Sil)
