@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class anasayfaSlider extends CI_Controller {
+class Anasayfaslider extends CI_Controller {
 
 public function __construct(){
      parent::__construct();
@@ -15,7 +15,7 @@ public function __construct(){
 
 public function index(){
 
-    $list = $this->anasayfaSlider_model->get_all();
+    $list = $this->anasayfaslider_model->get_all();
 
     $viewData["list"] = $list;
 
@@ -24,26 +24,26 @@ public function index(){
     'list' => $list,
     'title' => "Anasayfa Slider | Admin Paneli",
     );
-    $this->load->view("admin/anasayfaSlider", $data);
+    $this->load->view("admin/anasayfaslider", $data);
 }
 
 public function update_form($id){
     $where = array(
         "id" => $id
     );
-    $slider = $this->anasayfaSlider_model->get($where);
+    $slider = $this->anasayfaslider_model->get($where);
 
 
     $data = array(
     'slider' => $slider,
     'title' => "Slider Düzenle | Admin Paneli"
     );
-    $data['slider_icerik'] = $this->anasayfaSlider_model->get($where);
+    $data['slider_icerik'] = $this->anasayfaslider_model->get($where);
     if (is_null($data['slider_icerik']->slider_durum) || ($id == '')) {
         redirect(base_url("admin/slider"));
     }
 
-    $this->load->view("admin/anasayfaSlider_duzenle", $data);
+    $this->load->view("admin/anasayfaslider_duzenle", $data);
 }
 
 public function update($id){
@@ -95,7 +95,7 @@ public function update($id){
     $where = array(
         "id" => $id,
     );
-    $update = $this->anasayfaSlider_model->update($where, $data);
+    $update = $this->anasayfaslider_model->update($where, $data);
 
     if($update){
 
@@ -123,7 +123,7 @@ public function insert_form(){
         'title' => "Slider Ekle | Admin Paneli"
     );
 
-    $this->load->view("admin/anasayfaSlider_ekle", $data);
+    $this->load->view("admin/anasayfaslider_ekle", $data);
 }
 
 public function insert(){
@@ -157,7 +157,7 @@ public function insert(){
                     "createdAt"     => $createdAt
                 );
 
-                $insert = $this->anasayfaSlider_model->insert($data);
+                $insert = $this->anasayfaslider_model->insert($data);
 
 
 
@@ -194,7 +194,7 @@ public function insert(){
                     "createdAt"     => $createdAt
                 );
 
-                $insert = $this->anasayfaSlider_model->insert($data);
+                $insert = $this->anasayfaslider_model->insert($data);
 
                 if($insert){
                     $alert = array(
@@ -235,7 +235,7 @@ public function delete($id){
         "id" => $id
     );
 
-    $delete = $this->anasayfaSlider_model->delete($where);
+    $delete = $this->anasayfaslider_model->delete($where);
 
     if($delete){
 

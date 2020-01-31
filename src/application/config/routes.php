@@ -98,13 +98,13 @@ $route['admin/oyunlar/ekran-goruntu/upload/(:any)'] = 'admin/oyunlar/ekran_gorun
 $route['admin/oyunlar/ekran-goruntuleri/sil/(:any)'] = 'admin/oyunlar/ekran_goruntuleri_sil/$1';
 //
 //
-$route['admin/slider'] = 'admin/anasayfaSlider/index';
-$route['admin/slider/ekle'] = 'admin/anasayfaSlider/insert_form';
-$route['admin/slider/ekle/insert'] = 'admin/anasayfaSlider/insert';
-$route['admin/slider/duzenle'] = 'admin/anasayfaSlider/update_form';
-$route['admin/slider/duzenle/(:any)'] = 'admin/anasayfaSlider/update_form/$1';
-$route['admin/slider/duzenle/update/(:any)'] = 'admin/anasayfaSlider/update/$1';
-$route['admin/slider/sil/(:any)'] = 'admin/anasayfaSlider/delete/$1';
+$route['admin/slider'] = 'admin/anasayfaslider/index';
+$route['admin/slider/ekle'] = 'admin/anasayfaslider/insert_form';
+$route['admin/slider/ekle/insert'] = 'admin/anasayfaslider/insert';
+$route['admin/slider/duzenle'] = 'admin/anasayfaslider/update_form';
+$route['admin/slider/duzenle/(:any)'] = 'admin/anasayfaslider/update_form/$1';
+$route['admin/slider/duzenle/update/(:any)'] = 'admin/anasayfaslider/update/$1';
+$route['admin/slider/sil/(:any)'] = 'admin/anasayfaslider/delete/$1';
 //
 $route['admin/yoneticiler'] = 'admin/yoneticiler/index';
 $route['admin/yoneticiler/ekle'] = 'admin/yoneticiler/insert_form';

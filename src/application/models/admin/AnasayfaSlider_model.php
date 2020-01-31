@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class anasayfaSlider_model extends CI_Model {
+class Anasayfaslider_model extends CI_Model {
 
 	public function get_all(){
 		
